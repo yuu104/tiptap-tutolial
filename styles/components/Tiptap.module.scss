@@ -1,0 +1,58 @@
+.container {
+  width: 600px;
+  height: 500px;
+  border: 2px solid #19191a;
+}
+
+.menu {
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  border: 2px solid #19191a;
+  border-radius: 6px;
+  background-color: #ffff;
+}
+
+.editorContent {
+  padding: 10px 20px;
+  background-color: #ffff;
+
+  &:focus {
+    outline: none;
+  }
+
+  > * {
+    margin-bottom: 15px;
+  }
+
+  ul,
+  ol {
+    padding-left: 15px;
+  }
+
+  blockquote {
+    border-left: 0.25em solid #e4ebee;
+    padding: 0 1em;
+  }
+
+  code {
+    color: #767b7d;
+    background-color: rgba(#767b7d, 0.1);
+  }
+
+  pre {
+    background: #19191a;
+    color: #ffff;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+
+    code {
+      color: inherit;
+      padding: 0;
+      background: none;
+      font-size: 0.8rem;
+    }
+  }
+}
